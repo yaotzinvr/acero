@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "acero"
+version = "0.1.0"
+description = ""
+authors = ["yao <yao@>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dbt-core = "^1.8.7"
+dbt-bigquery = "^1.8.3"
+dbt-postgres = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
